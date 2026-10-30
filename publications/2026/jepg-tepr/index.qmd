@@ -1,0 +1,46 @@
+---
+pagetitle: "Pillai et al. (2026) JEPG"
+title: "Task-evoked pupillary responses reveal a role for attentional intensity in auditory discrimination"
+
+pub-authors:
+  - Pillai
+  - Mashburn
+  - Tsukahara
+  - Leroux
+  - Engle
+
+pub-year: 2026
+date: 2026-10-30
+venue: "Journal of Experimental Psychology: General"
+pub-type: Empirical Article
+pub-status: Published
+
+projects:
+  - cognitive
+
+categories:
+  - sensation
+  - cognition
+
+pdf: Pillai_et_al_2026_JEPG.pdf
+data:
+code:
+doi: ""
+link: ""
+
+abstract: "Sensory discrimination has long been theorized to re ect a core cognitive function underlying intelligence. Building on this tradition, we examined whether task-evoked pupil responses, as an index of mental effort, relate to attention control (AC) and auditory discrimination ability. Using a large data set (N= 336), participants completed three adaptive auditory discrimination tasks (pitch, duration, loudness), a cognitive battery assessing AC, working memory capacity, and uid intelligence, and pupillometry during task performance. Structural equation modeling con rmed that AC predicted auditory discrimination thresholds and fully mediated the relationship between task-evoked pupil dilation and performance. Trial-level multilevel models revealed that higher task dif culty and errors were associated with larger pupil dilations, especially in demanding tasks. Crucially, individuals with greater AC exhibited steeper increases in pupil dilation with rising task dif culty and were more resilient to performance declines. For high-AC individuals, large pupil responses predicted preserved accuracy; for low-AC individuals, they signaled compensatory effort with diminished success. These results suggest that AC governs both the extent and ef cacy of mental effort, determining whether high arousal facilitates or fails to improve performance. This work re nes classic resource models by demonstrating that cognitive effort, indexed via pupillometry, supports perception most effectively when guided by strong AC. Findings support a hierarchical model in which AC serves as the functional bridge between arousal, sensory discrimination, and higher order cognition."
+
+listing-page: false
+page-layout: full
+format:
+  html:
+    include-in-header:
+      - text: |
+          <style>.quarto-title-meta { display: none !important; } .quarto-title-block .abstract { display: none !important; }</style>
+---
+
+{{< include ../../../assets/_meta-publication.qmd >}}
+
+{{< include ../../../assets/_download-buttons.qmd >}}
+
+{{< include ../../../assets/_pdf-viewer.qmd >}}
