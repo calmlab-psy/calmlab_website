@@ -130,6 +130,10 @@ h2::before {
   flex-shrink: 0;
 }
 
+h3 {
+  opacity: 1;
+}
+
 hr {
   border-color: var(--color-secondary);
   height: 2px !important;
@@ -1350,6 +1354,7 @@ h1#mindfulness-section {
   font-size: var(--fs-pi-name);
   font-weight: 800;
   color: var(--color-primary);
+  font-family: var(--font-logo) !important;
   line-height: 1.15;
 }
 
@@ -1503,9 +1508,9 @@ h1#mindfulness-section {
 
 .ra-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 320px));
   justify-content: center;
-  column-gap: 6rem;
+  column-gap: 2rem;
   row-gap: 2.5rem;
   background-color: var(--color-white);
 }
@@ -1521,28 +1526,33 @@ h1#mindfulness-section {
 
 /* The 3-column divider only makes sense on desktop. Hide it everywhere
    it can't reliably know "I'm not the rightmost in a row." */
-.ra-person:not(:nth-child(3n))::after {
+.ra-person:not(:nth-child(3n)):not(:last-child)::after {
   content: "";
   position: absolute;
-  right: -3rem;
+  right: -1rem;
   height: 100%;
   width: 1px;
   background: rgba(0, 0, 0, 0.15);
 }
 
-.ra-image-link { text-decoration: none; }
+.ra-image-link {
+  max-width: 260px;
+  text-decoration: none;
+}
 
 .ra-photo {
-  width: 100%;
-  padding: 2.5rem;
+  width: 85%;
+  padding: 0.5rem;
   border-radius: 50%;
 }
 
 .ra-name {
   margin: 0;
-  margin-bottom: -1rem;
   font-size: 1.5rem;
   line-height: 1.25;
+  font-weight: 700 !important;
+  color: var(--color-primary) !important;
+  font-family: var(--font-logo);
 }
 
 @media (max-width: 1100px) {

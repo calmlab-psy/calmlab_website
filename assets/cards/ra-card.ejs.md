@@ -1,6 +1,5 @@
 ```{=html}
 <div class="ra-card">
-  <h1 style="margin-top: -1rem;  margin-bottom: 2rem; text-align: center;">Undergraduate Research Assistants</h1>
 
   <div class="ra-grid">
 
@@ -18,6 +17,10 @@
 
         <% if (item.major) { %>
           <p style="margin-bottom: 0rem;"><b>Major: </b><%- item.major %></p>
+        <% } %>
+
+        <% if (item.minor) { %>
+          <p style="margin-bottom: 0rem;"><b>Minor: </b><%- item.minor %></p>
         <% } %>
 
         <% if (item.class) { %>

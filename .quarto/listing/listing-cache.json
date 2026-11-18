@@ -1,24 +1,19 @@
 {
   "listingMap": {
-    "research.qmd": [
-      "/publications/*/*/index.qmd"
-    ],
-    "tools/index.qmd": [
-      "*/index.qmd"
-    ],
-    "publications/index.qmd": [
-      "*/index.qmd"
+    "team/index.qmd": [
+      "jason-tsukahara/index.qmd",
+      "undergrads",
+      "../news/*/*/index.qmd"
     ],
     "index.qmd": [
       "news/*/*/index.qmd",
       "publications/*/*/index.qmd"
     ],
-    "news/index.qmd": [
-      "*/*/index.qmd"
+    "research.qmd": [
+      "/publications/*/*/index.qmd"
     ],
-    "team/index.qmd": [
-      "jason-tsukahara/index.qmd",
-      "../news/*/*/index.qmd"
+    "publications/index.qmd": [
+      "*/index.qmd"
     ],
     "team/jason-tsukahara/index.qmd": [
       "../../publications/2021/pnas-intelligence-lc/index.qmd",

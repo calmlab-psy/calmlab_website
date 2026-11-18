@@ -7,6 +7,7 @@ tagline: Short paragraph describing your interest in the lab and career / educat
 image: "photo.jpeg"
 
 major:
+minor:
 class:
 
 order: 1

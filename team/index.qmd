@@ -16,10 +16,10 @@ listing:
   #   template: ../assets/cards/grad-card.ejs.md
   #   sort: "order asc"
 
-  # - id: undergrads
-  #   contents: undergrads
-  #   template: ../assets/cards/ra-card.ejs.md
-  #   sort: "order asc"
+  - id: undergrads
+    contents: undergrads
+    template: ../assets/cards/ra-card.ejs.md
+    sort: "order asc"
 
   - id: team-news
     contents: ../news/*/*/index.qmd
@@ -52,15 +52,9 @@ Meat the CALM Lab team.
 <!-- ::: {#grad-students}
 ::: -->
 
-<!-- ::: {#undergrads}
-::: -->
+## Undergraduate Research Assistants
 
-## Join the Team
-
-::: {.profile-section-card}
-
-We are always looking for motivated and talented students to join the CALM Lab. If you are interested in joining our team, please contact Dr. Jason S. Tsukahara at: tsukaharaj@uncw.edu <a onclick="copyEmail(this); return false;" data-copy="tsukaharaj@uncw.edu" title="Copy email" class="copy-email-link"><i class="bi bi-copy"></i></a>
-
+::: {#undergrads}
 :::
 
 <hr>
